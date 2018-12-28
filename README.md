@@ -28,7 +28,7 @@ public class DownloadConstants {
 
 }
 ```
-- 2.开启web项目,打开首页http://localhost:8080/Multi-Downloader/index.jsp，输入下载链接即可
+- 2.开启web项目,打开首页http://localhost:8080/Multi-Downloader/index.jsp 输入下载链接即可
 
 ### 技术说明
 - 1.开启tomcat环境的web项目后，会触发StartupListener，StartupListener初始化Singleton，由Singleton开启下载总线程，监听随时发过来的新下载请求。当检测到有新的下载请求，便会加入待下载队列进行下载。
